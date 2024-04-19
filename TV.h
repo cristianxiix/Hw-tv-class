@@ -4,6 +4,6 @@ class TV
 float length;
 float width;
 
-TV(float l, float w);
+TV(float l, float w) : length(l), width(w){}
 void CalculateArea();
 }
