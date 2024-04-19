@@ -1,6 +1,6 @@
-class TV
+#include "TV.h"
+TV(float l, float w)
 {
-float height;
-float length;
-
+  length =l;
+  width = w;
 }
