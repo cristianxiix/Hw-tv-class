@@ -1,9 +1,5 @@
 #include "TV.h"
-TV(float l, float w)
-{
-  length =l;
-  width = w;
-}
+TV(float l, float w) : l(length), w(width){}
 void::TV::CalculateArea()
 {
    float area = 0;
